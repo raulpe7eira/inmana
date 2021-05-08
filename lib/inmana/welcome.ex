@@ -16,8 +16,6 @@ defmodule Inmana.Welcome do
   defp get_age(age), do: String.to_integer(age)
 
   defp evaluate("banana", 42), do: {:ok, "You are very special banana"}
-
   defp evaluate(name, age) when age >= 18, do: {:ok, "Welcome #{name}"}
-
   defp evaluate(name, _age), do: {:error, "You shall not pass #{name}"}
 end
