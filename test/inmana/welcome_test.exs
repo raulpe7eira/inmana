@@ -1,5 +1,5 @@
 defmodule Inmana.WelcomeTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
   alias Inmana.Welcome
 
