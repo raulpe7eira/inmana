@@ -6,13 +6,13 @@ defmodule Inmana.RestaurantTest do
 
   describe "changeset/1" do
     test "when all params are valid, returns a valid changeset" do
-      params = %{name: "Estufa costela", email: "costela@mail.com"}
+      params = %{email: "estufa@costela.com", name: "Estufa costela"}
 
       result = Restaurant.changeset(params)
 
       assert %Changeset{
                changes: %{
-                 email: "costela@mail.com",
+                 email: "estufa@costela.com",
                  name: "Estufa costela"
                },
                valid?: true
