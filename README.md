@@ -1,6 +1,6 @@
 # InMana API
 
-This repository is the code corresponding to the [nlw#5 - trilha elixir](https://nextlevelweek.com/) lab.
+This repository is the code corresponding to the [nlw#5 - trilha elixir](https://nextlevelweek.com/) lab by Rafael Camarda.
 
 > The project simulates an inventory management API that allows to register restaurants and supplies, view supplies, generate reports of expiring supplies and send them to the restaurant's email.
 
